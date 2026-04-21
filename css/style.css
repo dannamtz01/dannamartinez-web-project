@@ -24,11 +24,12 @@ body.index-page {
 }
 
 .index-page nav {
-    background-color: #006341 !important;
+    background-color: #004d32 !important;
 }
 
 .index-page nav a {
-    color: white !important;
+    color: #ffffff !important; 
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .index-page h1 {
