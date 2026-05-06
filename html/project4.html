@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 - My Music World</title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+
+<body class="project4-page">
+
+    <nav>
+        <a href="../index.html">Home</a> | 
+        <a href="project2.html">Travel Blog</a> | 
+        <a href="project3.html">Baking Hobby</a> |
+        <a href="project4.html">Music</a>
+    </nav>
+
+    <header>
+        <h1>My Music World</h1>
+        <p>Music is one of my favorite ways to relax, focus, and express myself.</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Why I Love Music</h2>
+            <p>
+                Music can completely change the mood of a day. When I am studying, I like calm songs that help me focus.
+                When I am tired, I prefer songs that give me more energy and motivation.
+            </p>
+
+            <p>
+                I also like how music connects people. Even when people have different backgrounds, they can still enjoy
+                the same song, rhythm, or lyrics.
+            </p>
+        </section>
+
+        <section class="image-section">
+            <h2>Music and Creativity</h2>
+
+            <img src="../images/music.png" alt="Vintage music-themed wall with instruments and decorations" width="500">
+
+            <p>
+                Image attribution:
+                Photo by
+                <a href="https://www.pexels.com/es-es/@yunus-kilic-162692242/" target="_blank" rel="noopener noreferrer">
+                    Yunus Kılıç
+                </a>
+                from
+                <a href="https://www.pexels.com/es-es/foto/pared-muro-vintage-musica-21821336/" target="_blank" rel="noopener noreferrer">
+                    Pexels
+                </a>.
+            </p>
+        </section>
+
+        <section>
+            <h2>My Favorite Things About Music</h2>
+            <ul>
+                <li>It helps me relax after a stressful day.</li>
+                <li>It makes studying feel easier.</li>
+                <li>It can bring back memories.</li>
+                <li>It helps people express feelings.</li>
+            </ul>
+        </section>
+
+        <section class="form-section">
+            <h2>Tell Me Your Favorite Song</h2>
+
+            <p>
+                Type your name and your favorite song below. After you click the button, a personalized message will appear.
+            </p>
+
+            <form id="musicForm">
+                <label for="userName">Your name:</label>
+                <input type="text" id="userName" name="userName" required>
+
+                <label for="favoriteSong">Favorite song:</label>
+                <input type="text" id="favoriteSong" name="favoriteSong" required>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div id="messageBox" class="message-box" aria-live="polite">
+                Your personalized message will appear here.
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Danna Martinez - ICT 280 - New Mexico State University</p>
+    </footer>
+
+    <script src="../javascript/script.js"></script>
+</body>
+</html>

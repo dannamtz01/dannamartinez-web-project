@@ -1,0 +1,224 @@
+.project4-page {
+    background-color: #f3ead7;
+    color: #2f261d;
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+}
+
+/* Navigation */
+.project4-page nav {
+    background-color: #4a2f1b;
+    padding: 16px;
+    text-align: center;
+    border-bottom: 4px solid #b88945;
+}
+
+.project4-page nav a {
+    color: #fff7e6;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project4-page nav a:hover {
+    color: #ffd27f;
+    text-decoration: underline;
+}
+
+/* Header */
+.project4-page header {
+    background-color: #6b4226;
+    color: #fff7e6;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.project4-page h1 {
+    font-size: 2.8rem;
+    color: #fff7e6;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.project4-page header p {
+    color: #fff7e6;
+    font-size: 1.1rem;
+}
+
+/* Main layout */
+.project4-page main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Sections */
+.project4-page section {
+    background-color: #fffaf0;
+    border: 2px solid #d6b37c;
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(74, 47, 27, 0.18);
+}
+
+.project4-page h2 {
+    color: #5a3218;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #b88945;
+    padding-bottom: 8px;
+}
+
+.project4-page p {
+    color: #2f261d;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* Image section */
+.project4-page .image-section {
+    text-align: center;
+}
+
+.project4-page .image-section img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 12px;
+    border: 4px solid #b88945;
+    display: block;
+    margin: 20px auto;
+}
+
+.project4-page .image-section p {
+    font-size: 0.95rem;
+}
+
+/* Links inside content */
+.project4-page main a {
+    color: #6b2f12;
+    font-weight: bold;
+}
+
+.project4-page main a:hover {
+    color: #9b4d1c;
+    text-decoration: underline;
+}
+
+/* List */
+.project4-page ul {
+    padding-left: 30px;
+}
+
+.project4-page li {
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+    color: #2f261d;
+}
+
+/* Form */
+.project4-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.project4-page label {
+    font-weight: bold;
+    color: #3b281c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project4-page input {
+    padding: 12px;
+    border: 2px solid #8a5a2b;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fffdf7;
+    color: #2f261d;
+}
+
+.project4-page input:focus {
+    outline: 3px solid #b88945;
+    border-color: #4a2f1b;
+}
+
+/* Button */
+.project4-page button {
+    background-color: #5a3218;
+    color: #fff7e6;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project4-page button:hover {
+    background-color: #7a4623;
+}
+
+.project4-page button:focus {
+    outline: 3px solid #b88945;
+}
+
+/* Dynamic message box */
+.project4-page .message-box {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #f7e4bc;
+    border-left: 6px solid #6b4226;
+    border-radius: 8px;
+    color: #2f261d;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+.project4-page footer {
+    text-align: center;
+    background-color: #4a2f1b;
+    padding: 18px;
+    border-top: 4px solid #b88945;
+}
+
+.project4-page footer p {
+    color: #fff7e6;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .project4-page nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .project4-page h1 {
+        font-size: 2rem;
+    }
+
+    .project4-page h2 {
+        font-size: 1.4rem;
+    }
+
+    .project4-page main {
+        padding: 10px;
+    }
+
+    .project4-page section {
+        padding: 18px;
+    }
+
+    .project4-page p,
+    .project4-page li {
+        font-size: 1rem;
+    }
+
+    .project4-page button {
+        width: 100%;
+    }
+}
